@@ -1,0 +1,49 @@
+# .gitignore for MLflow POC project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# MLflow
+mlruns/
+.mlflow/
+
+# Data Science / Jupyter
+.ipynb_checkpoints
+data/
+logs/
+models/
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+/mlflow
+/mlflow_data/
+
+#credentials
+**.env
+gcloud-service-account.json
